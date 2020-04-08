@@ -610,6 +610,29 @@ header {
   opacity: 0;
   visibility: hidden; }
 
+.content_table{
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
+ margin-left: 10px;
+}
+.content_table td, .content_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.content_table tr:nth-child(even){background-color: #f2f2f2;}
+
+.content_table tr:hover {background-color: #ddd;}
+
+.content_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
 #loader {
   position: fixed;
   width: 96px;
